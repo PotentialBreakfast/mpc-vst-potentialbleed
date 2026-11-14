@@ -1,0 +1,225 @@
+{
+ "presets": [
+  {
+   "name": "Wires behind the kit",
+   "values": {
+    "source": "WIRES",
+    "bleed": 30,
+    "output": 0,
+    "decay": 35,
+    "sense": -30,
+    "chance": 80,
+    "duck": 60,
+    "gaps": 20,
+    "tone": 0,
+    "tick": 10,
+    "drift": 10,
+    "listen": "Off"
+   }
+  },
+  {
+   "name": "Bass in the room",
+   "values": {
+    "source": "CABINET",
+    "bleed": 40,
+    "output": 0,
+    "decay": 55,
+    "sense": -30,
+    "chance": 80,
+    "duck": 50,
+    "gaps": 40,
+    "tone": 0,
+    "tick": 15,
+    "drift": 15,
+    "listen": "Off"
+   }
+  },
+  {
+   "name": "Piano lid open",
+   "values": {
+    "source": "SOUNDBOARD",
+    "bleed": 30,
+    "output": 0,
+    "decay": 65,
+    "sense": -30,
+    "chance": 80,
+    "duck": 45,
+    "gaps": 50,
+    "tone": -20,
+    "tick": 15,
+    "drift": 15,
+    "listen": "Off"
+   }
+  },
+  {
+   "name": "Rhodes shimmer",
+   "values": {
+    "source": "TINES",
+    "bleed": 25,
+    "output": 0,
+    "decay": 60,
+    "sense": -30,
+    "chance": 80,
+    "duck": 50,
+    "gaps": 30,
+    "tone": 20,
+    "tick": 15,
+    "drift": 15,
+    "listen": "Off"
+   }
+  },
+  {
+   "name": "Guitar scrape",
+   "values": {
+    "source": "STRINGS",
+    "bleed": 30,
+    "output": 0,
+    "decay": 45,
+    "sense": -30,
+    "chance": 60,
+    "duck": 50,
+    "gaps": 30,
+    "tone": 0,
+    "tick": 15,
+    "drift": 15,
+    "listen": "Off"
+   }
+  },
+  {
+   "name": "Cymbal wash",
+   "values": {
+    "source": "CYMBAL",
+    "bleed": 15,
+    "output": 0,
+    "decay": 75,
+    "sense": -30,
+    "chance": 80,
+    "duck": 70,
+    "gaps": 30,
+    "tone": -30,
+    "tick": 15,
+    "drift": 15,
+    "listen": "Off"
+   }
+  },
+  {
+   "name": "Small room",
+   "values": {
+    "source": "ROOM",
+    "bleed": 40,
+    "output": 0,
+    "decay": 40,
+    "sense": -30,
+    "chance": 80,
+    "duck": 50,
+    "gaps": 60,
+    "tone": 0,
+    "tick": 15,
+    "drift": 15,
+    "listen": "Off"
+   }
+  },
+  {
+   "name": "Vibes",
+   "values": {
+    "source": "BARS",
+    "bleed": 20,
+    "output": 0,
+    "decay": 70,
+    "sense": -30,
+    "chance": 50,
+    "duck": 50,
+    "gaps": 30,
+    "tone": 0,
+    "tick": 15,
+    "drift": 15,
+    "listen": "Off"
+   }
+  },
+  {
+   "name": "Old record",
+   "values": {
+    "source": "WIRES",
+    "bleed": 25,
+    "output": 0,
+    "decay": 45,
+    "sense": -30,
+    "chance": 80,
+    "duck": 50,
+    "gaps": 30,
+    "tone": -40,
+    "tick": 45,
+    "drift": 40,
+    "listen": "Off"
+   }
+  },
+  {
+   "name": "Dusty Loop",
+   "values": {
+    "source": "SOUNDBOARD",
+    "bleed": 25,
+    "output": 0,
+    "decay": 60,
+    "sense": -30,
+    "chance": 80,
+    "duck": 50,
+    "gaps": 50,
+    "tone": -20,
+    "tick": 20,
+    "drift": 20,
+    "listen": "Off"
+   }
+  },
+  {
+   "name": "90s Stab",
+   "values": {
+    "source": "TINES",
+    "bleed": 20,
+    "output": 0,
+    "decay": 50,
+    "sense": -30,
+    "chance": 60,
+    "duck": 50,
+    "gaps": 30,
+    "tone": 0,
+    "tick": 5,
+    "drift": 10,
+    "listen": "Off"
+   }
+  },
+  {
+   "name": "Break Bus",
+   "values": {
+    "source": "WIRES",
+    "bleed": 30,
+    "output": 0,
+    "decay": 35,
+    "sense": -30,
+    "chance": 80,
+    "duck": 60,
+    "gaps": 30,
+    "tone": 0,
+    "tick": 10,
+    "drift": 10,
+    "listen": "Off"
+   }
+  },
+  {
+   "name": "Dub Drums",
+   "values": {
+    "source": "ROOM",
+    "bleed": 40,
+    "output": 0,
+    "decay": 40,
+    "sense": -30,
+    "chance": 80,
+    "duck": 50,
+    "gaps": 60,
+    "tone": 0,
+    "tick": 10,
+    "drift": 15,
+    "listen": "Off"
+   }
+  }
+ ]
+}

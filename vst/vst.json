@@ -1,0 +1,28 @@
+{
+ "name": "PotentialBleed",
+ "vendor": "PotentialBreaks",
+ "uid": "PbBl",
+ "version": 1000,
+ "so": "potentialbleed.so",
+ "params": "params.json",
+ "layout": "layout.conf",
+ "effect": true,
+ "presets": "presets.json",
+ "build": {
+  "root": "..",
+  "sources": [
+   "src/bleed.c"
+  ],
+  "cflags": [
+   "-ffast-math"
+  ],
+  "libs": [
+   "-lm"
+  ]
+ },
+ "art": "html",
+ "nrpn": false,
+ "defines": {
+  "MODULE_SUBDIR": "\".\""
+ }
+}

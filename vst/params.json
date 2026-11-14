@@ -1,0 +1,135 @@
+{
+  "name": "PotentialBleed",
+  "params": [
+    {
+      "key": "bleed",
+      "name": "Bleed",
+      "min": 0,
+      "max": 100,
+      "default": 35,
+      "unit": "%"
+    },
+    {
+      "key": "output",
+      "name": "Output",
+      "min": -24,
+      "max": 12,
+      "default": 0,
+      "unit": "dB"
+    },
+    {
+      "key": "source",
+      "name": "Source",
+      "options": [
+        "WIRES",
+        "CABINET",
+        "SOUNDBOARD",
+        "TINES",
+        "STRINGS",
+        "CYMBAL",
+        "ROOM",
+        "BARS"
+      ],
+      "default": "WIRES"
+    },
+    {
+      "key": "decay",
+      "name": "Decay",
+      "min": 0,
+      "max": 100,
+      "default": 45,
+      "dynamic_display": true
+    },
+    {
+      "key": "sense",
+      "name": "Sense",
+      "min": -60,
+      "max": -6,
+      "default": -30,
+      "unit": "dB"
+    },
+    {
+      "key": "chance",
+      "name": "Chance",
+      "min": 0,
+      "max": 100,
+      "default": 80,
+      "unit": "%"
+    },
+    {
+      "key": "duck",
+      "name": "Duck",
+      "min": 0,
+      "max": 100,
+      "default": 50,
+      "unit": "%"
+    },
+    {
+      "key": "gaps",
+      "name": "Gaps",
+      "min": 0,
+      "max": 100,
+      "default": 30,
+      "unit": "%"
+    },
+    {
+      "key": "tone",
+      "name": "Tone",
+      "min": -100,
+      "max": 100,
+      "default": 0,
+      "dynamic_display": true
+    },
+    {
+      "key": "tick",
+      "name": "Tick",
+      "min": 0,
+      "max": 100,
+      "default": 15,
+      "unit": "%"
+    },
+    {
+      "key": "drift",
+      "name": "Drift",
+      "min": 0,
+      "max": 100,
+      "default": 15,
+      "unit": "%"
+    },
+    {
+      "key": "listen",
+      "name": "Listen",
+      "options": [
+        "Off",
+        "On"
+      ],
+      "default": "Off"
+    },
+    {
+      "key": "theme",
+      "name": "Look",
+      "options": [
+        "Print Plate",
+        "Night Rack",
+        "Colour Block"
+      ],
+      "default": 0
+    },
+    {
+      "key": "dice",
+      "name": "Roll",
+      "type": "trigger",
+      "momentary": true
+    },
+    {
+      "key": "wild",
+      "name": "Roll Wildness",
+      "options": [
+        "MILD",
+        "MEDIUM",
+        "WILD"
+      ],
+      "default": "MEDIUM"
+    }
+  ]
+}
