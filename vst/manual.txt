@@ -1,0 +1,66 @@
+= START
+# PotentialBleed: ghost bleed
+Listens for each hit and adds quiet, synthetic residue behind it: snare wires buzzing, a cabinet booming, a piano board ringing. Your chops sound like they came off a real recording, with other instruments leaking in.
+
+- Add it as an insert effect on a chopped loop, a drum bus, a track or a pad. It is not in the instrument list.
+- Quick start: turn LISTEN on. Lower SENSE until the important hits ring, then raise BLEED until you hear it clearly.
+- Turn LISTEN off and bring BLEED back down until the residue sits behind the track.
+- Nothing is delayed, so your MPC's timing stays exactly where it was.
+
+The full PotentialSuite manual: github.com/PotentialBreakfast/potential-plugins
+
+= CONTROLS
+# Controls
+- SOURCE: what leaks in (next page). BLEED: how much. Small amounts usually sound most real.
+- SENSE: how hard a hit has to be, -60 to -6 dB.
+- CHANCE: how often a hit leaks. 100 % is every hit, lower values give the odd ghost.
+- DECAY: how long the residue rings, 30 ms to 1.5 s.
+- DUCK keeps it down under loud audio. GAPS brings it up in the quiet spaces.
+- TONE: dark to bright. TICK: adds a needle tick on each hit.
+- DRIFT: a slow wobble, slightly different left and right, on the whole sound.
+- LISTEN: hear just the residue, to set it up. Turn it off again for the mix.
+- ROLL: picks a new source and shape. MILD, MEDIUM or WILD sets how far it goes.
+
+= SOURCES
+# Sources and presets
+All eight sources are generated in the plugin (tuned resonances and filtered noise), not recordings.
+
+- WIRES: snare wires rattling behind the kick. CABINET: a bass cabinet's low thump and boom.
+- SOUNDBOARD: a piano's wooden board ringing. TINES: bright struck tines, electric-piano style.
+- STRINGS: string scrape and ring. CYMBAL: a soft metallic wash.
+- ROOM: a small room's low ring and air. BARS: vibraphone-like bars.
+
+MPC's PRESET menu: Wires behind the kit, Bass in the room, Piano lid open, Rhodes shimmer, Guitar scrape, Cymbal wash, Small room, Vibes and Old record, then the four chain presets.
+
+= CHAINS
+# FX chains
+Put the plugins on a track's inserts in the order shown, then pick the same preset name in each one.
+
+- DUSTY LOOP (soul, jazz and library loops): BLEED > Patina > Grit. Bleed is on SOUNDBOARD.
+- 90s STAB (chopped horns, keys and vocal stabs): Grit > Punch > BLEED > Patina. Bleed is on TINES.
+- BREAK BUS (a boom-bap drum bus): Punch > Grit > BLEED > Patina. Bleed is on WIRES.
+- DUB DRUMS (lo-fi dub drums): Patina > Punch > BLEED > Grit. Bleed is on ROOM.
+
+Here, in Patina and in Grit the name is in the MPC's PRESET menu. In Punch it is on the PRESETS buttons.
+
+Rules of thumb: Punch early, Bleed before Patina so the bleed is aged with the sound, echo and chop last, one noise source per chain, and match levels with OUTPUT before you decide.
+
+= USER
+# User presets
+- To save: open the USER page, tap SAVE, then tap a slot. The slot now reads USER and its number.
+- To load: tap a slot. The slot you loaded last is lit.
+- Saving to a slot that is already filled replaces it straight away.
+- The 8 slots are kept on the drive the plugin is on, in a folder called PotentialSuite Presets. Every project and every copy of the plugin sees them, and updating the plugin keeps them.
+- A slot keeps the knobs and the source. It does not keep LISTEN, the ROLL setting or the look.
+- A chain of your own: save each plugin's part to the same slot number, for example USER 3 in Punch, Grit and Bleed. Later, tap USER 3 in each.
+
+= HELP
+# Good to know
+- Q-Links: BLEED, SOURCE, DECAY, SENSE, CHANCE, DUCK, GAPS and TONE, then TICK, DRIFT, OUTPUT and LISTEN.
+- Every setting is saved with your project.
+- Looks: Print Plate, Night Rack or Colour Block, on the SETTINGS page. A new look shows the next time the plugin loads.
+- There is no lookahead and nothing is delayed.
+- If nothing rings, lower SENSE. If everything rings, raise it.
+- Stereo in, stereo out, at 44.1 kHz.
+
+Ideas, bugs and criticism are all welcome: github.com/PotentialBreakfast/mpc-vst-potentialbleed

@@ -4,7 +4,7 @@
 
 ![PotentialBleed on the MPC (Print Plate look)](docs/images/potentialbleed.png)
 
-*Insert effect · MPC OS 3.x · Gen1 and Gen2 · v1.0.0*
+*Insert effect · MPC OS 3.x · Gen1 and Gen2 · v1.1.0*
 
 Free and open source (MIT), made by **PotentialBreaks**, part of the **PotentialSuite**, with the same three looks and LOOK switch as the rest of the suite. It runs inside the MPC as an insert effect, with its own touchscreen page, Q-Link control and project recall.
 
@@ -45,6 +45,10 @@ Nothing is delayed. There's no lookahead, so your MPC's timing stays exactly whe
 **Quick start:** put it on a chopped loop or a drum bus and turn **LISTEN** on. Lower **SENSE** until the important hits ring, then raise **BLEED** until you hear it clearly. Turn LISTEN off and bring BLEED back down until the residue sits behind the track.
 
 ![Night Rack look](docs/images/potentialbleed-rack.png)
+
+**USER presets** (USER page): 8 slots of your own. Tap **SAVE**, then a slot, to keep the sound; tap a slot to bring it back. They're kept in `PotentialSuite Presets/PotentialBleed.txt` beside your VST2 Plugins folder, so every project sees them and updates keep them. The same slot number in each PotentialSuite effect makes a chain of your own.
+
+**MANUAL page:** the manual is on the MPC's screen too. Tap **MANUAL**, then the page buttons along the top. The full [PotentialSuite manual](https://github.com/PotentialBreakfast/potential-plugins/blob/main/MANUAL.md) covers every plugin, the FX chains and a developer reference.
 
 ## Install
 
