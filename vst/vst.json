@@ -2,7 +2,7 @@
  "name": "PotentialBleed",
  "vendor": "PotentialBreaks",
  "uid": "PbBl",
- "version": 1101,
+ "version": 1200,
  "so": "potentialbleed.so",
  "params": "params.json",
  "layout": "layout.conf",

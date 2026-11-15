@@ -58,7 +58,7 @@ Rules of thumb: Punch early, Bleed before Patina so the bleed is aged with the s
 # Good to know
 - Q-Links: BLEED, SOURCE, DECAY, SENSE, CHANCE, DUCK, GAPS and TONE, then TICK, DRIFT, OUTPUT and LISTEN.
 - Every setting is saved with your project.
-- Looks: Print Plate, Night Rack or Colour Block, on the SETTINGS page. A new look shows the next time the plugin loads.
+- Looks: Print Plate, Night Rack, Colour Block or Vintage, on the SETTINGS page. A new look shows the next time the plugin loads.
 - There is no lookahead and nothing is delayed.
 - If nothing rings, lower SENSE. If everything rings, raise it.
 - Stereo in, stereo out, at 44.1 kHz.
