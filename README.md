@@ -61,3 +61,10 @@ Then turn on **Preferences > Enhancements > VST2 Support**, restart the MPC, and
 ## Credits and licence
 
 MIT, see `LICENSE`. Inspired by Ghost Sample from 16 Levels. This is an independent design with its own code and its own sources. Built with the [Open MPC kit](https://github.com/open-mpc/mpc-vst-plugins) (MIT). Not affiliated with or endorsed by Akai Professional or inMusic.
+
+---
+
+## Tested on
+
+MPC One (Gen1) on standard Akai firmware 3.10.1 and on the latest HAKAI firmware (USB-boot method). Gen2 64-bit builds pass Akai's checks but have had limited real-device testing so far.
+
